@@ -1,5 +1,5 @@
 import { io } from "socket.io-client"
 
 export function connectWS() {
-    return io("http://localhost:3000");
+    return io("https://websocket-chat-app-8pdq.onrender.com:3000");
 }
